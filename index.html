@@ -1,0 +1,306 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Contact Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    /* font-family:monospace; */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffc6c6, #082062);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 150px auto;
+    background-color: #0c0e15;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.right-column {
+    padding: 20px;
+}
+.box {
+    width: auto;
+    padding: 20px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    background-color: #060a18;
+    border: 2px solid #bf1529;
+    border-radius: 6px;
+    font-size: 30;
+   
+}
+
+.profile {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc; /* Optional: Add border for styling */
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.profile-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile:hover .profile-img {
+    transform: scale(1.1);
+}
+
+.profile-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none; /* Allow hover on the image */
+}
+
+.profile:hover .profile-overlay {
+    opacity: 1;
+}
+
+.profile-overlay p {
+    margin: 0;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    color: #e4e4e4;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+h5 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.contact {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+ul,
+ol {
+    color: rgb(103, 219, 255);
+    font-size:20px;
+}
+
+#formate {
+    color: rgb(59, 97, 211);
+}
+
+#exp {
+    color: #8994b1;
+    font-size:25px;
+}
+
+#edu {
+    color:pink (103, 219, 255);
+    font-size:20px ;
+}
+.title{
+    color: rgb(103, 219, 255);
+    display:flex;
+    justify-content: left;
+    
+}
+.social-connection {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: left;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    color: #d2edfc; /* You can style the color of the icons here */
+    font-size: 24px; /* Adjust the size of the icons as needed */
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.5);
+}
+
+/* Style for LinkedIn icon */
+.linkedin:hover {
+    color: #0077b5; /* Change to LinkedIn color on hover */
+}
+
+/* Style for Instagram icon */
+.instagram:hover {
+    color: #bc2a8d; /* Change to Instagram color on hover */
+}
+
+/* Style for GitHub icon */
+.github:hover {
+    color: #ffffff; /* Change to GitHub color on hover */
+}
+
+.social-connection img {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .contact-card {
+        margin: 50px auto;
+    } 
+}
+</style>
+<body>
+    <div class="contact-card">
+        <div class="left-column">
+            <div class="profile">
+                <img src="C:\Users\User\Pictures\Screenshots\Keerti lata choudhury.png" alt="Profile Picture" class="profile-img">
+                <div class="profile-overlay">
+                    <p class="name">Keerti Lata</p>
+                    <p class="tagline">CcpC</p>
+                </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="box">
+                <a href="https://fonts.google.com/specimen/Pacifico"></a>
+                <h1 style="color:rgb(17, 128, 30);font-family:https://fonts.google.com/specimen/Pacifico;">Keerti Lata Choudhury</h1>
+                <h5 style="color:rgb(219, 120, 189);font-family:https://fonts.google.com/specimen/Dancing+Script;">Fresher at Central University of Jharkhand </h5>
+                <h4 style="color:rgb(219, 120, 189);font-family:https://fonts.google.com/specimen/Dancing+Script;">Ranchi, Jharkhand, India</h4>
+                <h3 style="color:rgb(219, 120, 189);font-family:https://fonts.google.com/specimen/Dancing+Script;">CcpC, CUJ</h3>
+            </div>
+            
+
+                <div style="font-family:georgia ; color: pink;" class="box"><h3>
+                    <p class="contact">Phone: <span class="formate" id="phone">  +91 7002370310</span></p>
+                    <p class="contact">Personal Email: <span class="formate" id="personal-email">  keerti.lc05@gamil.com</span></p>
+                    <p class="contact">College Email: <span class="formate" id="college-email">  keerti.23190503035@cuj.ac.in</span></p></h3>
+                   
+                
+                
+                <div class="social-connection"><!--Section for social media connect as column grid-->
+                    <!-- <a href="https://www.linkedin.com/in/imkkrish/" target="_blank" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a> -->
+                    <!-- <a href="https://www.instagram.com/imk_krish/" target="_blank" class="social-link instagram"> -->
+                        <!-- <i class="fab fa-instagram"></i> -->
+                    <!-- </a> -->
+                    <a href="https://github.com/Keertilata20" target="_blank" class="social-link github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <h3 style="color:yellowgreen;font-family:https://fonts.google.com/specimen/Permanent+Marker">Experience:</h3>
+                    <ul>
+                        <li style="color:pink;font-family:georgia"><p><span id="exp">
+                             Member of CcpC.</span><br></li>
+                
+                
+                             <p style="color:rgb(50, 161, 205);font-family:sans-serif;font-size:23px">Skills:</p> 
+                            <Ul style="color:pink;font-family:mV BOLI">
+                                <li>Team spirit</LI>
+                                <li>Creativity</li>
+                                <li>Public speaking</li>
+                                <LI>Management</LI>
+                            </ol>
+                        </span></p></ul>
+                    </div>
+                    
+            </div>
+            <div style="color:pink" class="box">
+                <h3 style="color:yellowgreen;font-family:https://fonts.google.com/specimen/Permanent+Marker">Education : </h3>
+                <ul style="color:pink;font-family:MV BOLI">
+                    <li><p><span id="edu">Matriculation: Noonmati Public School, Guwahati, Assam</span></p></li>
+                    <li><p><span id="edu">Intermidiate: PCM with CS, Kendriya Vidyalaya CRPF, Guwahati, Assam</span></p></li>
+                    <li><p><span id="edu">Integrated B.Tech & M.Tech in CSE,CUJ</span></p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the phone number and email spans
+    var phoneSpan = document.getElementById('phone');
+    var personalEmailSpan = document.getElementById('personal-email');
+    var collegeEmailSpan = document.getElementById('college-email');
+
+    // Add click event listeners to the spans
+    phoneSpan.addEventListener('click', function() {
+        var phoneNumber = phoneSpan.textContent;
+        window.location.href = 'tel:' + phoneNumber;
+    });
+
+    personalEmailSpan.addEventListener('click', function() {
+        var email = personalEmailSpan.textContent;
+        window.location.href = 'mailto:' + email;
+    });
+
+    collegeEmailSpan.addEventListener('click', function() {
+        var email = collegeEmailSpan.textContent;
+        window.location.href = 'mailto:' + email;
+    });
+});
+    </script>
+    <script src="script.js"></script>
+<!-- <p>hello</p> -->
+   </body>
+</html>
