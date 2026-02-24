@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Card</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #ffc6c6, #082062);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .contact-card {
+            display: flex;
+            flex-direction: column;
+            max-width: 800px;
+            margin: 150px auto;
+            background-color: #0c0e15;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            padding: 20px;
+        }
+
+        .left-column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .right-column {
+            padding: 20px;
+        }
+
+        .box {
+            width: auto;
+            padding: 20px;
+            margin: 10px;
+            background-color: #060a18;
+            border: 2px solid #bf1529;
+            border-radius: 6px;
+        }
+
+        .profile {
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #ccc;
+            position: relative;
+            transition: transform 0.3s;
+        }
+
+        .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+        }
+
+        .profile:hover .profile-img {
+            transform: scale(1.1);
+        }
+
+        .profile-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            text-align: center;
+            color: #fff;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .profile:hover .profile-overlay {
+            opacity: 1;
+        }
+
+        .profile-overlay p {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        h1, h2, h3, h4, h5 {
+            margin: 0;
+            color: #e4e4e4;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #ffffff;
+            font-family: 'Times new roman';
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        h3 {
+            margin-top: 10px;
+            font-size: 25px;
+        }
+
+        h4 {
+            font-size: 20px;
+            opacity: 0.8;
+            font-family: 'georgia';
+        }
+
+        h5 {
+            font-size: 20px;
+            color: #ffffff;
+            font-family: 'Tahoma';
+        }
+
+        .contact {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+        ul, ol {
+            color: rgb(103, 219, 255);
+            font-size: 20px;
+        }
+
+        #exp {
+            color: #8994b1;
+            font-size: 25px;
+        }
+
+        #edu {
+            color: pink;
+            font-size: 20px;
+        }
+
+        .social-connection {
+            margin-top: 3vh;
+            display: flex;
+            justify-content: left;
+        }
+
+        .social-link {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            color: #d2edfc;
+            font-size: 24px;
+            transition: transform 0.3s ease;
+        }
+
+        .social-link:hover {
+            transform: scale(1.5);
+        }
+
+        .linkedin:hover {
+            color: #0077b5;
+        }
+
+        .instagram:hover {
+            color: #bc2a8d;
+        }
+
+        .github:hover {
+            color: #ffffff;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .contact-card {
+                margin: 50px auto;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="contact-card">
+
+    <div class="left-column">
+       <div class="profile">
+    <img src="profilrpic.jpeg" alt="Profile Picture" class="profile-img">
+    <div class="profile-overlay">
+        <p class="name">Keerti Lata</p>
+    </div>
+</div>
+    </div>
+
+    <div class="right-column">
+
+        <div class="box">
+            <h1 style="color:rgb(255, 15, 167);">Keerti Lata Choudhury</h1>
+            <h5  style="color:rgb(69, 133, 230);">3rd year student at Central University of Jharkhand</h5>
+            <h4  style="color:rgb(16, 220, 220);">Ranchi, Jharkhand, India</h4>
+      
+        </div>
+
+        <div class="box" style="font-family: Georgia; color: pink;">
+            <p class="contact">Phone: <span id="phone">+91 7002370310</span></p>
+            <p class="contact">Personal Email: <span id="personal-email">keerti.lc05@gmail.com</span></p>
+            <p class="contact">College Email: <span id="college-email">keerti.23190503035@cuj.ac.in</span></p>
+
+            <div class="social-connection">
+                <a href="https://github.com/Keertilata20" target="_blank" class="social-link github">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 style="color:yellowgreen; font-family:'Permanent Marker', cursive;">Experience:</h3>
+
+            <p style="color:rgb(50, 161, 205); font-family:sans-serif; font-size:23px;">Skills:</p>
+            <ul style="color:pink; font-family:georgia;">
+                <li>Team spirit</li>
+                <li>Creativity</li>
+                <li>Public speaking</li>
+                <li>Management</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="box" style="color:pink;">
+        <h3 style="color:yellowgreen; font-family:'Permanent Marker', cursive;">Education:</h3>
+        <ul style="font-family:georgia;">
+            <li><span id="edu">Secondary: Noonmati Public School, Guwahati, Assam</span></li>
+            <li><span id="edu">Higher Secondary: PCM with CS, Kendriya Vidyalaya CRPF, Guwahati, Assam</span></li>
+            <li><span id="edu">Integrated B.Tech & M.Tech in CSE, CUJ</span></li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+
+    var phoneSpan = document.getElementById('phone');
+    var personalEmailSpan = document.getElementById('personal-email');
+    var collegeEmailSpan = document.getElementById('college-email');
+
+    phoneSpan.addEventListener('click', function() {
+        window.location.href = 'tel:' + phoneSpan.textContent.trim();
+    });
+
+    personalEmailSpan.addEventListener('click', function() {
+        window.location.href = 'mailto:' + personalEmailSpan.textContent.trim();
+    });
+
+    collegeEmailSpan.addEventListener('click', function() {
+        window.location.href = 'mailto:' + collegeEmailSpan.textContent.trim();
+    });
+
+});
+</script>
+
+</body>
+</html>
