@@ -74,6 +74,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    padding-bottom: 10px;
 }
 
 /* Profile */
@@ -91,7 +92,8 @@ body {
     object-fit: cover;
     transition: transform 0.3s;
      animation: float 4s ease-in-out infinite;
-     box-shadow: 0 0 25px rgba(0,245,212,0.4);
+    
+     box-shadow: 0 0 30px rgba(0,245,212,0.5);
 }
 @keyframes float {
     0% { transform: translateY(0); }
@@ -119,6 +121,8 @@ body {
     background: linear-gradient(90deg, #00F5D4, #38bdf8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
 }
 
 .name-section p {
@@ -146,13 +150,13 @@ body {
      border-left: 3px solid #00f5d4;
     padding-left: 15px;
     padding: 20px;
-     min-height: 110px;
+      min-height: 120px;
 }
 
 .box:hover {
-   
-     transform: translateY(-4px);
     transition: 0.3s;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,245,212,0.15);
 }
 
 /* Headings */
@@ -208,7 +212,8 @@ ul li {
     margin: 20px auto 0;
     display: block;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 .btn + .btn {
     margin-top: 15px;
@@ -228,15 +233,20 @@ ul li {
     background: rgba(0,245,212,0.1);
     border: 1px solid rgba(0,245,212,0.3);
     font-size: 12px;
-   
+   transition: 0.3s;
     margin-top: 12px;
+}
+.tags span:hover {
+    background: rgba(0,245,212,0.3);
+    transform: scale(1.05);
 }
 
 /*status*/
 .status {
     color: #00f5d4;
     font-size: 12px;
-    margin-top: 8px;
+    margin-top: 12px;
+    opacity: 0.8;
 }
 
 
