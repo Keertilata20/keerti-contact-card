@@ -1,18 +1,16 @@
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
 
-    var phoneSpan = document.getElementById('phone');
-    var personalEmailSpan = document.getElementById('personal-email');
-    var collegeEmailSpan = document.getElementById('college-email');
+    const phone = document.getElementById('phone');
+    const email = document.getElementById('personal-email');
 
-    phoneSpan.addEventListener('click', function() {
-        window.location.href = 'tel:' + phoneSpan.textContent.trim();
+    phone.addEventListener('click', () => {
+        window.location.href = 'tel:+917002370310';
     });
 
-    personalEmailSpan.addEventListener('click', function() {
-        window.location.href = 'mailto:' + personalEmailSpan.textContent.trim();
+    email.addEventListener('click', () => {
+        window.location.href = 'mailto:keerti.lc05@gmail.com';
     });
-
 });
 
 document.querySelectorAll('.contact p').forEach(item => {

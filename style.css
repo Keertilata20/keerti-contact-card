@@ -16,10 +16,15 @@ body {
 .contact-card {
     max-width: 700px;
     margin: 80px auto;
-    background: #1e293b;
-    border-radius: 20px;
     padding: 30px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    
+    box-shadow: 0 0 40px rgba(0,0,0,0.4);
 }
 
 /* Profile */
@@ -50,7 +55,9 @@ body {
 
 .name-section h1 {
     font-size: 28px;
-    color: #ffffff;
+    background: linear-gradient(90deg, #00F5D4, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .name-section p {
@@ -64,6 +71,12 @@ body {
     padding: 15px;
     border-radius: 12px;
     margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0,245,212,0.2);
 }
 
 /* Headings */
