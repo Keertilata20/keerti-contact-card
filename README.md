@@ -1,5 +1,15 @@
 # 💳 Keerti Contact Card
 
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge\&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge\&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge\&logo=javascript)
+![Status](https://img.shields.io/badge/status-archived-lightgrey?style=for-the-badge)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen?style=for-the-badge)
+![Portfolio](https://img.shields.io/badge/Portfolio-Live-00f5d4?style=for-the-badge\&logo=vercel)
+![Stars](https://img.shields.io/github/stars/keertilata20/keerti-contact-card?style=for-the-badge)
+
+
+
 A modern, responsive **developer contact card UI** built using HTML, CSS, and JavaScript.
 Designed to act as a **digital identity card** for quick sharing of profile, skills, and contact details.
 
@@ -36,7 +46,11 @@ Designed to act as a **digital identity card** for quick sharing of profile, ski
 
 ## 📸 Preview
 
-![Contact Card Preview](preview.png)
+<br>
+
+<p align="center">
+  <img src="preview.png" width="350"/>
+</p>
 
 ---
 
@@ -62,6 +76,6 @@ Designed to act as a **digital identity card** for quick sharing of profile, ski
 ## 📬 Connect With Me
 
 * 💼 Portfolio: https://portfolio-keerti.vercel.app/
-* 🐙 GitHub: https://github.com/your-username
+* 🐙 GitHub: https://github.com/Keertilata20
 
 ---
