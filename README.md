@@ -18,7 +18,7 @@ This is one of my early web development projects where I created a personal cont
 
 ⚠️ This project is no longer actively maintained.
 
-👉 Check out my updated portfolio here: [YOUR PORTFOLIO LINK]
+👉 Check out my updated portfolio here: https://portfolio-keerti.vercel.app/
 
 ## 📸 Preview
 
