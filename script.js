@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener('DOMContentLoaded', function() {
 
     var phoneSpan = document.getElementById('phone');
@@ -21,4 +21,3 @@ document.querySelectorAll('.contact p').forEach(item => {
         alert("Copied to clipboard!");
     });
 });
-</script>
