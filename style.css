@@ -61,8 +61,10 @@ body {
 }
 
 .right-panel {
-    flex: 2;
-}
+   flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;}
 
 /* Profile */
 .profile {
@@ -120,12 +122,13 @@ body {
 /* Boxes */
 .box {
     background: #0f172a;
-    padding: 15px;
     border-radius: 12px;
     margin-bottom: 15px;
     transition: 0.3s;
      border-left: 3px solid #00f5d4;
     padding-left: 15px;
+    padding: 20px;
+     min-height: 110px;
 }
 
 .box:hover {
@@ -137,7 +140,7 @@ body {
 /* Headings */
 .box h3 {
     color: #3b82f6;
-    margin-bottom: 10px;
+     margin-bottom: 12px;
 }
 
 /* Contact */
@@ -184,9 +187,13 @@ ul li {
     background: linear-gradient(90deg, #00f5d4, #38bdf8);
     color: black;
     box-shadow: 0 0 15px rgba(0,245,212,0.5);
-     display: block;
     margin: 20px auto 0;
-
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.btn + .btn {
+    margin-top: 15px;
 }
 
 .btn:hover {
@@ -203,6 +210,7 @@ ul li {
     background: rgba(0,245,212,0.1);
     border: 1px solid rgba(0,245,212,0.3);
     font-size: 12px;
+    margin-top: 8px;
 }
 
 /*status*/
