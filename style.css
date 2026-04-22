@@ -59,6 +59,8 @@ body {
     text-align: center;
     flex: 1.2;
     text-align: center;
+    gap: 18px; 
+    padding-bottom: 10px;
 }
 .left-panel::after {
     content: "";
@@ -66,7 +68,8 @@ body {
     width: 80%;
     height: 1px;
     background: rgba(255,255,255,0.08);
-    margin: 15px auto 0;
+   
+    margin-top: 18px;
 }
 
 .right-panel {
@@ -109,7 +112,8 @@ body {
 .name-section {
     text-align: center;
    
-     margin-bottom: 10px;
+  margin: 0;
+     
 
     
     font-size: 30px;
@@ -124,10 +128,11 @@ body {
     line-height: 1.2;
     letter-spacing: 1.5px;
      font-family: 'Orbitron', sans-serif;
+     margin-bottom: 8px;
 }
 
 .name-section p {
-    margin-top: 5px;
+   margin-top: 4px;
      line-height: 1.5;
 
      font-size: 14px;
@@ -139,8 +144,9 @@ body {
 .tagline {
     color: #00f5d4;
     font-size: 14px;
-    margin-top: 5px;
-    letter-spacing: 1px;
+   
+     margin-top: 8px;
+    line-height: 1.6;
 }
 /* Boxes */
 .box {
@@ -246,8 +252,11 @@ ul li {
 .status {
     color: #00f5d4;
     font-size: 12px;
-    margin-top: 12px;
+  
     opacity: 0.8;
+
+    margin-top: 14px;
+    letter-spacing: 0.5px;
 }
 
 
@@ -267,5 +276,7 @@ ul li {
     border-radius: 12px;
     font-size: 11px;
     background: rgba(0,245,212,0.1);
-    margin-top: 10px;
+    
+
+    margin-top: 12px;
 }
