@@ -8,8 +8,13 @@
 /* Body */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #0f172a, #1e293b);
+    background: radial-gradient(circle at top, #0f172a, #020617);
     color: #e2e8f0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 /* Main card */
@@ -65,6 +70,14 @@ body {
     margin-top: 5px;
 }
 
+/* Tagline */
+
+.tagline {
+    color: #00f5d4;
+    font-size: 14px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
 /* Boxes */
 .box {
     background: #0f172a;
@@ -115,4 +128,21 @@ ul li {
         margin: 30px 15px;
         padding: 20px;
     }
+}
+
+/*Button*/
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00f5d4;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
 }
