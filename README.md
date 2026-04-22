@@ -45,11 +45,9 @@ Designed to act as a **digital identity card** for quick sharing of profile, ski
 ---
 
 ## 📸 Preview
-
 <br>
-
 <p align="center">
-  <img src="preview.png" width="350"/>
+  <img src="preview.png" width="350" style="border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.3);"/>
 </p>
 
 ---
