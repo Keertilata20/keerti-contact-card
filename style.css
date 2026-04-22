@@ -79,6 +79,7 @@ body {
     object-fit: cover;
     transition: transform 0.3s;
      animation: float 4s ease-in-out infinite;
+     box-shadow: 0 0 25px rgba(0,245,212,0.4);
 }
 @keyframes float {
     0% { transform: translateY(0); }
@@ -128,8 +129,9 @@ body {
 }
 
 .box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 20px rgba(0,245,212,0.2);
+   
+     transform: translateY(-4px);
+    transition: 0.3s;
 }
 
 /* Headings */
@@ -172,8 +174,8 @@ ul li {
 
 /*Button*/
 .btn {
-    display: inline-block;
-    margin-top: 20px;
+    
+    
     padding: 10px 20px;
     border-radius: 8px;
     text-decoration: none;
@@ -182,6 +184,8 @@ ul li {
     background: linear-gradient(90deg, #00f5d4, #38bdf8);
     color: black;
     box-shadow: 0 0 15px rgba(0,245,212,0.5);
+     display: block;
+    margin: 20px auto 0;
 
 }
 
@@ -199,4 +203,30 @@ ul li {
     background: rgba(0,245,212,0.1);
     border: 1px solid rgba(0,245,212,0.3);
     font-size: 12px;
+}
+
+/*status*/
+.status {
+    color: #00f5d4;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+/*conatct item*/
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*mini stats*/
+
+.mini-stats span {
+    display: inline-block;
+    margin: 5px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    background: rgba(0,245,212,0.1);
 }
