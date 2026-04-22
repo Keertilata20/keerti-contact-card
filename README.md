@@ -1,31 +1,67 @@
-# 💼 Keerti Contact Card
+# 💳 Keerti Contact Card
 
-This is one of my early web development projects where I created a personal contact card using HTML, CSS, and JavaScript.
+A modern, responsive **developer contact card UI** built using HTML, CSS, and JavaScript.
+Designed to act as a **digital identity card** for quick sharing of profile, skills, and contact details.
+
+---
 
 ## ✨ Features
 
-* Interactive contact details (click to call/email)
-* Profile card UI
-* Hover effects
+* 📱 Responsive layout (works on all devices)
+* 🎨 Clean UI with glassmorphism + neon accents
+* 🧑 Profile section with animated avatar
+* 🏷️ Tech stack & tools displayed using interactive tags
+* 📞 Click-to-call and 📧 click-to-email functionality
+* ✨ Smooth hover effects and transitions
+* 🔗 Quick access to portfolio & resume
+
+---
 
 ## 🛠️ Tech Stack
 
-* HTML
-* CSS
-* JavaScript
+* HTML5
+* CSS3 (Flexbox, gradients, animations)
+* JavaScript (DOM interactions)
 
-## 🚀 Status
+---
 
-⚠️ This project is no longer actively maintained.
+## 📌 Status
 
-👉 Check out my updated portfolio here: https://portfolio-keerti.vercel.app/
+⚠️ This project is an early project and is no longer actively maintained.
+
+👉 Check out my latest portfolio here:
+🔗 https://portfolio-keerti.vercel.app/
+
+---
 
 ## 📸 Preview
 
-(Add your screenshot here)
+![Contact Card Preview](preview.png)
+
+---
 
 ## 💡 What I Learned
 
-* Basics of layout design
-* Styling with CSS
-* DOM interactions in JavaScript
+* Structuring layouts using Flexbox
+* Creating modern UI using gradients and shadows
+* Writing cleaner, modular CSS
+* Handling DOM interactions in JavaScript
+* Improving UI/UX through spacing, typography & hierarchy
+
+---
+
+## 🚀 Future Improvements (optional ideas)
+
+* Dark/Light mode toggle
+* Animations with GSAP or Framer Motion
+* Converting into React component
+* Adding QR code for quick sharing
+
+---
+
+## 📬 Connect With Me
+
+* 💼 Portfolio: https://portfolio-keerti.vercel.app/
+* 🐙 GitHub: https://github.com/your-username
+
+---
